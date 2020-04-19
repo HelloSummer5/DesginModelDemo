@@ -8,9 +8,9 @@ P04|thread||
 P05|thread||
 P06|thread||
 P07-龟兔赛跑|thread|ThreadTest1|
-P08-龟兔赛跑|thread|ThreadTest1|
-P09-龟兔赛跑|thread|ThreadTest1|
-P10-龟兔赛跑|thread|ThreadTest1|
+P08-实现Callable接口|thread|ThreadTest1|
+P09-静态代理模式|proxy|StaticProxy|
+P10-lamda表达式|lamda|TestLambda、TestLambda2|
 P11-停止线程|thread|TestStop|
 P12-线程休眠|thread|TestSleep、TestSleep2|
 P13-线程礼让|thread|待更新|

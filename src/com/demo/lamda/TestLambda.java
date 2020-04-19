@@ -1,4 +1,4 @@
-package com.demo.lambda;
+package com.demo.lamda;
 
 /**
  * lambda原理
