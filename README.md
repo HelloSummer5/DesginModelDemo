@@ -1,40 +1,26 @@
 # 多线程详解
-章节|包|
----|---:|
-P1～28|thread|
+章节|包|类名
+---|---:|:---|
+P01|thread|待整理|
+P02|thread||
+P03|thread||
+P04|thread||
+P05|thread||
+P06|thread||
+P07-龟兔赛跑|thread|ThreadTest1|
+P08-龟兔赛跑|thread|ThreadTest1|
+P09-龟兔赛跑|thread|ThreadTest1|
+P10-龟兔赛跑|thread|ThreadTest1|
+P11-停止线程|thread|TestStop|
+P12-线程休眠|thread|TestSleep、TestSleep2|
+P13-线程礼让|thread|待更新|
+P14-线程强制执行join|thread|待更新|
+P15-监测线程状态|thread|TestState|
+P16-线程优先级|thread|TestPriority|
+P17-线程优先级|thread||
+P18-线程优先级|thread||
+P19-线程安全三大经典案例|thread|TestTicket、UnSafeBank、UnSafeList|
 
-## P07-龟兔赛跑
-### 类名
-ThreadTest1
-
-## P11-停止线程
-### 类名
-TestStop
-
-## P12-线程休眠
-### 类名
-TestSleep、TestSleep2
-
-## P13-线程礼让
-### 类名
-- 待更新
-
-## P14-线程强制执行join
-### 类名
-- 待更新
-
-## P15-监测线程状态
-### 类名
-TestState
-
-## P16-线程优先级
-### 类名
-TestPriority
- 
-## P19-线程安全三大经典案例
-### 类名
-- 三大经典案例：取票、银行取钱、List类
-TestTicket、UnSafeBank、UnSafeList
 
 
 
