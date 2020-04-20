@@ -20,20 +20,23 @@ public class TestTicket implements Runnable{
     @Override
     public void run() {
         while (flag) {
-            if (ticketNum <= 0){
-                flag = false;
-                System.out.println("Over.");
-                return;
-            }
-            // 模拟延时, 根据自己电脑调时间
-            try {
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-            System.out.println(Thread.currentThread().getName() + "拿了第" + ticketNum-- + "票");
+            buy();
         }
+    }
 
+    public synchronized void buy(){
+        if (ticketNum <= 0){
+            flag = false;
+            System.out.println("Over.");
+            return;
+        }
+        // 模拟延时, 根据自己电脑调时间
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        System.out.println(Thread.currentThread().getName() + "拿了第" + ticketNum-- + "票");
     }
 }
 

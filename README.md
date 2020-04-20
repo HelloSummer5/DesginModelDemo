@@ -17,11 +17,13 @@ P13-线程礼让|thread|待更新|
 P14-线程强制执行join|thread|待更新|
 P15-监测线程状态|thread|TestState|
 P16-线程优先级|thread|TestPriority|
-P17-线程优先级|thread||
-P18-线程优先级|thread||
+P17-守护线程|thread|TestDaemon|
+P18-线程同步机制|thread||
 P19-线程安全三大经典案例|thread|TestTicket、UnSafeBank、UnSafeList|
-
-
+P20-synchronized|thread|TestTicket、UnSafeBank、UnSafeList|
+P21-CopyOnWriteArrayList|thread|TestJUC|
+P22-死锁|thread|DeadLock、TestDeadLock|
+P23-Lock|thread|TestLock|
 
 
 
