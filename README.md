@@ -24,6 +24,8 @@ P20-synchronized|thread|TestTicket、UnSafeBank、UnSafeList|
 P21-CopyOnWriteArrayList|thread|TestJUC|
 P22-死锁|thread|DeadLock、TestDeadLock|
 P23-Lock|thread|TestLock|
+P24-生产消费者|thread|TestPC|
+P25-管程法|thread|TestPC|
 
 
 
